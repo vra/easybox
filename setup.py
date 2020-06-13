@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="easybox",
-    version="0.0.1",
+    version="0.0.2",
     keywords=["easybox", "Detection", 'Python', 'Deep-learning', 'TKinter'],
     description="A simple but powerful bounding box annotation tool by Python",
     long_description="A simple but powerful bounding box annotation tool by Python",
@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     platforms="any",
-    install_requires=[],
+    install_requires=['pillow', 'tk'],
 
     scripts=[],
     entry_points={

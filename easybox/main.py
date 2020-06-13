@@ -247,7 +247,6 @@ class EasyBox(tk.Tk):
             with open(boxes_save_path, 'r') as f:
                 for line in f:
                     top, left, bottom, right, color_id = [int(e) for e in line.strip().split(' ')]
-                    print('==> load_bboxes_from_file, line: ', line)
                     vis_top, vis_bottom = top / self.img_height_ratio, bottom / self.img_height_ratio
                     vis_left, vis_right = left / self.img_width_ratio, right / self.img_width_ratio
                     self.bboxes.append([top, left, bottom, right, color_id])
