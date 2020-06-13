@@ -12,7 +12,7 @@ from tkinter import * # noqa
 
 from tkinter.filedialog import askdirectory, askopenfile
 
-from config import cfg
+from .config import cfg
 
 
 class EasyBox(tk.Tk):
@@ -402,5 +402,9 @@ class EasyBox(tk.Tk):
         self.toplevel = help_window
 
 
-if __name__ == '__main__':
+def main():
     win = EasyBox()
+
+
+if __name__ == '__main__':
+    main()
