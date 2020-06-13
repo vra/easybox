@@ -2,7 +2,8 @@
 A simple but powerful bounding box annotation tool by Python
 
 ## Install
-### 1. Linux
+### 1. use pip
+This works on both Linux and Windows.
 ```bash
 pip3 install --user easybox
 ```
@@ -11,13 +12,22 @@ Then run below command in termianl to begin:
 easybox
 ```
 
-### 2. Windows
+### 2. use release
+This method only works on Windows.
+
 Download execute file from release page: <https://github.com/vra/easybox/releases>.
 Directly run `*.exe` to begin.
 
 
 ## How to use
-### 1. Video Demo
+### 1. Demo
+![demo](./imgs/demo.gif)
+First you need to choose a folder with images. Then you begin annotate them using easybox. The annotations will save in the subfolder named `easybox`. The format of each bbox in  annotation file is 
+```bash
+top left bottom right color
+``` 
+You can ignore `color` when further process your annotations.
+
 ### 2. Shortcuts
 |Operate|UI operation|Shortcut|
 |--|--|--|
