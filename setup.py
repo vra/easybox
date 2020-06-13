@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="easybox",
-    version="0.0.3",
+    version="0.0.4",
     keywords=["easybox", "Detection", 'Python', 'Deep-learning', 'TKinter'],
     description="A simple but powerful bounding box annotation tool by Python",
     long_description="A simple but powerful bounding box annotation tool by Python",
