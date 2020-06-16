@@ -7,7 +7,7 @@ This works on both Linux and Windows.
 ```bash
 pip3 install --user easybox
 ```
-Then run below command in termianl to begin:
+Then run below command in termial to begin:
 ```bash
 easybox
 ```
@@ -15,14 +15,15 @@ easybox
 ### 2. use release
 This method only works on Windows.
 
-Download execute file from release page: <https://github.com/vra/easybox/releases>.
+Download the execute file from the release page: <https://github.com/vra/easybox/releases>.
 Directly run `*.exe` to begin.
 
 
 ## How to use
 ### 1. Demo
 ![demo](./imgs/demo.gif)
-First you need to choose a folder with images. Then you begin annotate them using easybox. The annotations will save in the subfolder named `easybox`. The format of each bbox in  annotation file is 
+
+Firstly you need to choose a folder with images. Then you can begin annotate them using easybox. The annotations will save in the subfolder named `easybox`. The format of each bbox in  annotation file is 
 ```bash
 top left bottom right color
 ``` 
@@ -49,7 +50,7 @@ git clone https://github.com/vra/easybox
 cd easybox
 python3 setup.py install --user
 ```
-Then run below command in termianl to begin:
+Then run below command in termial to begin:
 ```bash
 easybox
 ```
@@ -61,7 +62,7 @@ Then run:
 ```bash
 pyinstaller.exe -F -w  ./easybox/main.py
 ```
-A execute file namede `main.exe` will be created in `dist` folder, you can directly run it.
+A execute file named `main.exe` will be created in `dist` folder, you can directly run it.
 ```bash
 ./dist/main.exe
 ```
