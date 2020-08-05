@@ -333,6 +333,7 @@ class EasyBox(tk.Tk):
         else:
             self.canvas.delete(self.vis_rect)
             self.canvas.delete(self.vis_move_rect)
+            self.vis_rect_list.pop()
 
         self.canvas.delete(self.hor_line)
         self.canvas.delete(self.ver_line)
